@@ -66,7 +66,8 @@ const createPost = (post) => {
                   >
                     <img src="${userImage}" alt="User Picture" />
                   </a>
-                  <a href="#" class="post__user">phero</a>
+                  <a href="#" class="post__user">                          ${post.comments[0]?.user}
+                  </a>
                 </div>
 
                 <button class="post__more-options">
